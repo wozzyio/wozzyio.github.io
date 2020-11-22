@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
+import featureImage from "../../static/images/robot.png";
 import thumbnailEvent from "../../static/images/feature-event.png"
 import thumbnailBoard from "../../static/images/feature-board.png"
 import thumbnailNews from "../../static/images/feature-news.png"
@@ -11,11 +11,11 @@ import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy"/>
+        <SEO title="Creating Student platforms"/>
 
         <div className={"page-header home"}>
-            <h1>Make your Staff and Workspace Happy</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
+            <h1>Developer And School Platforms</h1>
+            <p>Wozzy provides schools across the globe with innovative solutions to ensure the students are engaged and learning.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -31,8 +31,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <h2>Homeschoolzen</h2>
+                                <p>Save your time and energy by letting Wozzy manage your events (handle the colleague’s birthday, gathering, etc.), grades, calendars and tasks.</p>
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <h2>Dockify</h2>
+                                <p>Build and deploy all in docker. Innovative docker PAAS to run your applicaitons using docker.</p>
                             </div>
                         </div>
 
@@ -65,8 +65,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
+                                <h2>Pikmykid</h2>
+                                <p>The first and only smart dismissal solution for school districts, charter / private schools, after-school programs, YMCA’s, carpools, and daycare facilities. It connects schools, teachers, and parents through real-time tools to make dismissals safer and more efficient.</p>
                             </div>
                         </div>
                     </div>
@@ -76,8 +76,8 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
+                                <h2>Parent messenger</h2>
+                                <p>There are better ways to engage parents than via emails, and fliers. At Wozzy we communicate in real-time through push notifications directly to your parent’s device. Do you still want to send emails? You can do both! Our messages are syndicated through an easy to use interface with full accountability.</p>
                             </div>
                         </div>
 
@@ -99,8 +99,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
+                                <h2>Tip Line</h2>
+                                <p>We understand the importance of leveraging technology to empower students and community members to play a part in their own school’s safety. Emergencies can be mitigated proactively if school staff has access to appropriate information that helps them prepare, improve safety.</p>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@ const IndexPage = () => (
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
                     <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
+                    <p>Want safe students?</p>
                 </div>
 
                 <div className={"button"}>
