@@ -2,12 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/robot.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
-import thumbnailStaff from "../../static/images/feature-user.png"
+import featureImage from "../../static/robot.png";
+import thumbnailEvent from "../../static/feature-event.png"
+import thumbnailBoard from "../../static/feature-board.png"
+import thumbnailNews from "../../static/feature-news.png"
+import thumbnailTeams from "../../static/feature-team.png"
+import thumbnailStaff from "../../static/feature-user.png"
 
 const IndexPage = () => (
     <Layout>
@@ -112,7 +112,7 @@ const IndexPage = () => (
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
                     <h2>Sign up for free</h2>
-                    <p>Want safe students?</p>
+                    <p>Want better education?</p>
                 </div>
 
                 <div className={"button"}>
