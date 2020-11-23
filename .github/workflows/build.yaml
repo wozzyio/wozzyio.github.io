@@ -24,7 +24,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m "Create New Release" -a
-    - uses: ad-m/github-push-action@main
+    - uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.DEPLOY_TOKEN }}
         branch: ${{ github.ref }}
