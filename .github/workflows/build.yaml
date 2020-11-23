@@ -16,10 +16,10 @@ jobs:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - run: |
+        find . ! -name 'Makefile' ! -name 'LICENSE' ! -name 'CHANGELOG.md' ! -name 'wozzyio' ! -name '.git' ! -name '.gitignore' ! -name 'README.md' ! -name '.github' ! -name 'src' ! -name 'static' ! -name 'images' ! -name 'hooks' ! -name 'info' ! -name 'logs' ! -name 'objects' ! -name 'refs' ! -name 'pages' ! -name 'styles' ! -name 'integration' ! -name 'workflows' ! -name 'components' ! -name 'COMMIT_EDITMSG' ! -name 'pack'  -type d -exec rm -rf {} +
         cd wozzyio; npm install; npm run build; cd public; sed -i -- 's/\/static/static/g' index.html;
         cd ../
         cd ../
-        find . ! -name 'Makefile' ! -name 'LICENSE' ! -name 'CHANGELOG.md' ! -name 'wozzyio' ! -name '.git' ! -name '.gitignore' ! -name 'README.md' ! -name '.github' ! -name 'src' ! -name 'static' ! -name 'images' ! -name 'hooks' ! -name 'info' ! -name 'logs' ! -name 'objects' ! -name 'refs' ! -name 'pages' ! -name 'styles' ! -name 'integration' ! -name 'workflows' ! -name 'components' ! -name 'COMMIT_EDITMSG' ! -name 'pack'  -type d -exec rm -rf {} +
         cd wozzyio/public; cp -r * ../../
     - run: |
         git config --local user.email "action@github.com"
