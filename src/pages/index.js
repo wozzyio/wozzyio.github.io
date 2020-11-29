@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import featureImage from "../../static/robot.png";
 import thumbnailEvent from "../../static/feature-event.png"
-import thumbnailBoard from "../../static/feature-board.png"
+import thumbnailBoard from "../../static/container.png"
 import thumbnailNews from "../../static/feature-news.png"
 import thumbnailTeams from "../../static/feature-team.png"
 import thumbnailStaff from "../../static/feature-user.png"
